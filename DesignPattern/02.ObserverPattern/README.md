@@ -35,10 +35,10 @@ It is mainly used to implement distributed event handling systems, in "event dri
 - 이제 또 다른 새로운 소식이 오면 A, B, C, D의 구독자들은 정보를 받습니다.
 
 ![ObserverPattern.005](./img/ObserverPattern.005.jpeg)
-- 하지만 구독자B는 더 이상 구독하기를 원하지 않는다고 출판사에 요청합니다. 
+- 하지만 구독자C는 더 이상 구독하기를 원하지 않는다고 출판사에 요청합니다. 
 
 ![ObserverPattern.006](./img/ObserverPattern.006.jpeg)
-- 출판사는 구독자B는 구독자 목록에서 제거합니다.
+- 출판사는 구독자C는 구독자 목록에서 제거합니다.
 
 ![ObserverPattern.007](./img/ObserverPattern.007.jpeg)
-- 이제 구독자B는 출판사에 새로운 정보가 오더라도 더 이상 그 정보를 받을 수 없습니다. 
+- 이제 구독자C는 출판사에 새로운 정보가 오더라도 더 이상 그 정보를 받을 수 없습니다. 
