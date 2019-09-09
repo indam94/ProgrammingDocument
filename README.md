@@ -1,1 +1,1 @@
-# Orgarinze Software Engineering Documents
+# Orgarnize Software Engineering Documents
