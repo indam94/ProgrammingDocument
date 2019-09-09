@@ -22,3 +22,17 @@ It is mainly used to implement distributed event handling systems, in "event dri
 
 ### Publisher(출판사) + Subscriber(구독자) = Observer Pattern(옵져버 패턴)
 
+![ObserverPattern001](./img/ObserverPattern001.jpeg)
+- 
+![ObserverPattern.002](./img/ObserverPattern.002.jpeg)
+- 
+![ObserverPattern.003](./img/ObserverPattern.003.jpeg)
+- 
+![ObserverPattern.004](./img/ObserverPattern.004.jpeg)
+- 
+![ObserverPattern.005](./img/ObserverPattern.005.jpeg)
+- 
+![ObserverPattern.006](./img/ObserverPattern.006.jpeg)
+- 
+![ObserverPattern.007](./img/ObserverPattern.007.jpeg)
+- 
