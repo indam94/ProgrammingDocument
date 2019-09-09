@@ -23,16 +23,22 @@ It is mainly used to implement distributed event handling systems, in "event dri
 ### Publisher(출판사) + Subscriber(구독자) = Observer Pattern(옵져버 패턴)
 
 ![ObserverPattern001](./img/ObserverPattern001.jpeg)
-- 
+- A, B, C의 구독자들은 출판사에서 새소식이 들어오면 그 정보를 받습니다. 하지만 비구독자는 알 수 없습니다.
+
 ![ObserverPattern.002](./img/ObserverPattern.002.jpeg)
-- 
+- 하지만 이제 비구독자는 정보를 알 수 있는 구독자가 되길 원한다고 출판사에 요청합니다.
+
 ![ObserverPattern.003](./img/ObserverPattern.003.jpeg)
-- 
+- 출판사는 비구독자를 구독자D로 추가하여 새로운 소식을 받을 수 있게 합니다.
+
 ![ObserverPattern.004](./img/ObserverPattern.004.jpeg)
-- 
+- 이제 또 다른 새로운 소식이 오면 A, B, C, D의 구독자들은 정보를 받습니다.
+
 ![ObserverPattern.005](./img/ObserverPattern.005.jpeg)
-- 
+- 하지만 구독자B는 더 이상 구독하기를 원하지 않는다고 출판사에 요청합니다. 
+
 ![ObserverPattern.006](./img/ObserverPattern.006.jpeg)
-- 
+- 출판사는 구독자B는 구독자 목록에서 제거합니다.
+
 ![ObserverPattern.007](./img/ObserverPattern.007.jpeg)
-- 
+- 이제 구독자B는 출판사에 새로운 정보가 오더라도 더 이상 그 정보를 받을 수 없습니다. 
