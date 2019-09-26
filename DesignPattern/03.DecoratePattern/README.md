@@ -26,19 +26,19 @@ The decorator pattern is a design pattern that allows behavior to be added to an
 
 ### 데코레이터를 써서 음료 주문을 완성하는 방법
 
-![DecoratorPattern1](./img/DecoratorPattern001.jpeg)
+![DecoratorPattern1](./img/DecoratorPattern.001.jpeg)
 1. Start with a DarkRoast object.
 - DarkRoast 객체에서 시작합니다.
 
-![DecoratorPattern2](./img/DecoratorPattern002.jpeg)
+![DecoratorPattern2](./img/DecoratorPattern.002.jpeg)
 2. Since the customer ordered mocha, we create a Mocha object and wrap it with DarkRoast.
 - 손님이 모카를 주문했으니까 Mocha 객체를 만들고 그 객체로 DarkRoast를 감쌉니다.
 
-![DecoratorPattern3](./img/DecoratorPattern003.jpeg)
+![DecoratorPattern3](./img/DecoratorPattern.003.jpeg)
 3. Since the customer ordered whipped cream as well, they make a Whip decorator and wrap the Mocha with the object.
 - 손님이 휘핑 크림도 같이 주문했기 때문에 Whip 데코레이터를 만들고 그 객체로 Mocha를 감쌉니다.
 
-![DecoratorPattern4](./img/DecoratorPattern004.jpeg)
+![DecoratorPattern4](./img/DecoratorPattern.004.jpeg)
 4. Now let's calculate the price When you get a price, the outermost decorator, Whip, delegates the price calculation to the object the object is decorating. After the price is found, the price of the whipped cream is added to the price and the result is returned.
 - 이제 가격을 계산해 볼까요? 가격을 구할 때는 가장 바깥쪽에 있는 데코레이터인 Whip에서는 그 객체가 장식하고 있는 객체한테 가격 계산을 위임합니다. 가격이 구해지고 나면, 구해진 가격에 휘핑 크림의 가격을 더한 다음 그 결과를 리턴합니다.
 
